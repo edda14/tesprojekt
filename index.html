@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"><title>Document</title>
     <style>
         .post {
             width: 500px;
@@ -41,11 +41,17 @@
 </head>
 
 <body>
-    <h1>Überschrift</h1>
-   <input id="name" type="text" placeholder="Dein Name"> <input id="message" type="text" placeholder="Neuer Post..."> <button onclick="addPost()">Posten</button>
-
+    <h1>Instiminsti</h1>
+   <input id="name" type="text" placeholder="Dein Name"> <input id="message" type="text" placeholder="Neuer Post..."> <button class="btn" onclick="addPost()">Posten</button>
+   <div class="card">
+    <div class="card-body">
+      This is some text within a card body.
+    </div>
+  </div>
+  
     <div id="myposts">
     </div>
 </body>
+
 
 </html>
